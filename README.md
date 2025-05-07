@@ -62,56 +62,48 @@ Redis for Celery broker (optional but recommended)
 Installation
 Clone the repo
 
-bash
-Copy
-Edit
+```
 git clone https://github.com/your-username/AlgoTrading.git
 cd AlgoTrading
+```
 
 Create & activate virtual environment
 
-bash
-Copy
-Edit
+```
 python -m venv env
 source env/bin/activate  # Windows: env\Scripts\activate
+```
 
 Install dependencies
 
-bash
-Copy
-Edit
+```
 pip install -r requirements.txt
+```
 
 Run database migrations
 
-bash
-Copy
-Edit
+```
 python manage.py migrate
+```
 
 Start development server
 
-bash
-Copy
-Edit
+```
 python manage.py runserver
-
+```
 ## 💡 Usage
 Create a superuser for admin access:
 
-bash
-Copy
-Edit
+```
 python manage.py createsuperuser
-Access API docs at http://localhost:8000/api/docs/ (Swagger/OpenAPI) 
+Access API docs at http://localhost:8000/api/docs/ (Swagger/OpenAPI)
+```
 
 Trigger Celery worker (optional for async tasks):
 
-bash
-Copy
-Edit
+```
 celery -A Cryptonaire_backend worker --loglevel=info
+```
 
 ## 📁 Project Structure
 bash
