@@ -1,5 +1,8 @@
-🚀 Project Overview
-AlgoTrading is a Django-based backend platform for automated cryptocurrency trading, arbitrage, P2P exchanges, and blockchain data parsing. It centralizes various trading strategies and analytics tools into a single, modular codebase, enabling developers to:
+
+
+# 🚀 Project Overview
+
+### AlgoTrading is a Django-based backend platform for automated cryptocurrency trading, arbitrage, P2P exchanges, and blockchain data parsing. It centralizes various trading strategies and analytics tools into a single, modular codebase, enabling developers to:
 
 Deploy arbitrage bots across multiple venues without manual card processing 
 GitHub
@@ -10,7 +13,7 @@ FreeCodeCamp
 Parse on-chain data using Web3 protocols for real-time insights 
 GitHub Docs
 
-📑 Table of Contents
+## 📑 Table of Contents
 Features
 
 Tech Stack
@@ -33,7 +36,7 @@ License
 
 Contact
 
-🌟 Features
+## 🌟 Features
 Modular Architecture: Separate Django apps for education (academy), cardless operations (cardless), arbitrage (CardlessArbitrage), core backend (Cryptonaire_backend), P2P trading (cryptop2p), user management (users), and blockchain parsing (Web3Parser) 
 GitHub
 
@@ -46,7 +49,7 @@ GitHub Docs
 Data Analytics: Real-time and historical crypto market analysis modules 
 Hatica
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 Backend: Python, Django, DRF 
 GitHub
 
@@ -59,7 +62,7 @@ Medium
 Blockchain: Web3.py for Ethereum-compatible chains 
 GitHub Docs
 
-🚀 Getting Started
+## 🚀 Getting Started
 Prerequisites
 Python 3.10+ installed locally 
 FreeCodeCamp
@@ -113,7 +116,7 @@ Edit
 python manage.py runserver
 Reddit
 
-💡 Usage
+## 💡 Usage
 Create a superuser for admin access:
 
 bash
@@ -131,7 +134,7 @@ Edit
 celery -A Cryptonaire_backend worker --loglevel=info
 Medium
 
-📁 Project Structure
+## 📁 Project Structure
 bash
 Copy
 Edit
@@ -148,7 +151,7 @@ AlgoTrading/
 └── README.md            # Project documentation
 GitHub
 
-⚙️ Configuration
+## ⚙️ Configuration
 Environment Variables:
 
 DJANGO_SECRET_KEY – Django secret key
@@ -161,7 +164,7 @@ Settings Module:
 Edit Cryptonaire_backend/settings.py to customize installed apps, middleware, and REST framework settings 
 GitHub Docs
 
-🤝 Contributing
+## 🤝 Contributing
 Fork this repository
 
 Create your feature branch (git checkout -b feature/YourFeature)
@@ -174,7 +177,7 @@ Open a Pull Request
 
 Please follow the Contributor Covenant code of conduct. 
 
-📬 Contact
+## 📬 Contact
 Nikita Yurtayev
 
 Email: nikita.yurtayev@gmail.com
