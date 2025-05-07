@@ -1,0 +1,40 @@
+# Python/Django specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyi
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+
+# Development files
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables and secrets
+.env
+.env.*
+myenv/
+
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.pydevproject
+.DS_Store
+
+# Miscellaneous
+*.bak
+*.tmp
+*.bak
+*.temp
+*.swp
+
